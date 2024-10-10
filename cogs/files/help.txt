@@ -1,0 +1,4 @@
+/clear <количество> - Deletes the specified number of messages (available only to users with message management rights).
+/vote <> - Creates a vote with reactions ✅ and ❌ (available only to users with message control privileges).
+/help - Showing this message.
+/info - Displays information about the server.
