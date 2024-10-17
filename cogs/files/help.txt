@@ -1,4 +1,17 @@
-/clear <количество> - Deletes the specified number of messages (available only to users with message management rights).
-/vote <> - Creates a vote with reactions ✅ and ❌ (available only to users with message control privileges).
-/help - Showing this message.
-/info - Displays information about the server.
+**User Management**
+
+    /ban <member> [reason] [duration]: Temporarily or permanently bans the specified user.
+    /unban <member>: Unbans the specified user.
+    /mute <member> [reason] [duration]: Mutes the specified member, preventing them from sending messages in any channel.
+    /unmute <member>: Unmutes the specified member.
+
+**Message Management**
+
+    /clear <amount>: Deletes the specified number of messages in the current channel.
+
+**General Commands**
+
+    /help: Displays this command list.
+    /info: Shows information about the server, such as the server name and total members.
+    /vote <issue>: Creates a vote on the specified issue using ✅ and ❌ reactions.
+    /reaction <message_id> <emoji> <role>: Adds a reaction to the specified message and grants the specified role when users react with the given emoji.
